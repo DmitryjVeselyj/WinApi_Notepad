@@ -1,0 +1,17 @@
+#include"menu.h"
+
+MenuDemo MENU
+{
+    POPUP "&File"
+    {
+        MENUITEM "&Open", IDM_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit", IDM_EXIT
+    }
+    POPUP "&View"
+    {
+        MENUITEM "&Format", IDM_FORMAT, CHECKED
+        MENUITEM "&Scroll", IDM_SCROLL
+    }
+
+}
